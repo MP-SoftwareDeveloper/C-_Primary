@@ -21,10 +21,11 @@ namespace FirstApp
             int A = 3;  // A Simple data type
             int b = 7;  // b Simple data type
             int c;
-            string a = Convert.ToString(a);
+            string a = Convert.ToString(A);
             string num1 = "23";
 
             int num = Convert.ToInt32(num1);
+            bool IsActive = Convert.ToBoolean("True");
 
             Console.ForegroundColor = ConsoleColor.Yellow; // Console complex data type
             Console.WriteLine(b);
